@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(34,101,147,0.8827906162464986) 58%);
+                }
+          .container{
+             width: 400px;
+             margin:20vh auto 0 auto ;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+    
+
+}
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+input{
+     border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 195);
+
+}
+
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#log{
+    background-color:rgba(53, 10, 226, 0.63);
+     color: white;
+     border:1px rgba(53, 10, 226, 0.63);
+     border-radius: 5px;
+     padding:10px;
+     margin :20px 0 px;
+     cursor:pointer;
+     font-size: 20px;
+     width: 100%;
+
+}
+
+               
+    </style>
+   
+</head>
+<body>
+<div class="container">
+          
+
+    <h1>Login Form</h1>
+
+    <form  method="post" >
+        
+        <input placeholder="Username" name="username" type="text">
+        <br>
+
+        <input placeholder="Password" name="password" type="password" >
+        <br>
+ <button id="log" type="submit" >Login</button>
+     <h3>DONT HAVE A ACCOUNT ?</h3>
+    <a href="/signup" >Sign Up</a>
+    </form>
+
+</div>
+    
+</body>
+</html>
